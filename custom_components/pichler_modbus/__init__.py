@@ -141,7 +141,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
     # ================== dynamically load desired plugin =======================================================
     _LOGGER.info(f"trying to load plugin - plugin_name: {plugin_name}")
     plugin = importlib.import_module(
-        f".plugin_{plugin_name}", "custom_components.solax_modbus"
+        f".plugin_{plugin_name}", "custom_components.pichler_modbus"
     )
     if not plugin:
         _LOGGER.error(f"could not import plugin with name: {plugin_name}")
