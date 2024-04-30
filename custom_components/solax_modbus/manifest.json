@@ -1,7 +1,7 @@
 {
-  "domain": "solax_modbus",
-  "name": "SolaX Inverter Modbus",
-  "codeowners": ["@wills106"],
+  "domain": "pichler_modbus",
+  "name": "SolaX and Pichler Modbus",
+  "codeowners": ["@wills106", "@dmatscheko"],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://homeassistant-solax-modbus.readthedocs.io/",
