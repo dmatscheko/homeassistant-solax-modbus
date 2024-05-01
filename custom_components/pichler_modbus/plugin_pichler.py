@@ -158,7 +158,7 @@ NUMBER_TYPES = [
         icon="mdi:fan",
     ),
     PichlerModbusNumberEntityDescription(
-        name="Timer Lüftungsstufe 3",
+        name="Lüftungsstufe 3 Timer",
         key="timer_luftungsstufe_3",
         register=70,
         fmt="i",
@@ -411,7 +411,7 @@ SENSOR_TYPES_MAIN: list[PichlerModbusSensorEntityDescription] = [
         icon="mdi:fan",
     ),
     PichlerModbusSensorEntityDescription(
-        name="Timer Lüftungsstufe 3",
+        name="Lüftungsstufe 3 Timer",
         key="timer_luftungsstufe_3",
         register=70,
         scale=1,
